@@ -19,4 +19,41 @@ Types of Malware
 - Rootkit: This malware is designed to modify the operating system to create a backdoor, which attackers can then use to access your computer remotely. Most rootkits take advantage of software vulnerabilities to gain access to resources that normally shouldn’t be accessible (privilege escalation) and modify system files. Rootkits can also modify system forensics and monitoring tools, making them very hard to detect. In most cases, a computer infected by a rootkit has to be wiped and any required software reinstalled.
 - Virus: A virus is a type of computer program that, when executed, replicates and attaches itself to other executable files, such as a document, by inserting its own code. Most viruses require end-user interaction to initiate activation and can be written to act on a specific date or time. Viruses can be relatively harmless, such as those that display a funny image. Or they can be destructive, such as those that modify or delete data. Viruses can also be programmed to mutate in order to avoid detection. Most viruses are spread by USB drives, optical disks, network shares or email.
 - Trojan Horse: This malware carries out malicious operations by masking its true intent. It might appear legitimate but is, in fact, very dangerous. Trojans exploit your user privileges and are most often found in image files, audio files or games. Unlike viruses, Trojans do not self-replicate but act as a decoy to sneak malicious software past unsuspecting users.
-- Worms:
+- Worms: This is a type of malware that replicates itself in order to spread from one computer to another. Unlike a virus, which requires a host program to run, worms can run by themselves. Other than the initial infection of the host, they do not require user participation and can spread very quickly over the network. Worms share similar patterns: They exploit system vulnerabilities, they have a way to propagate themselves, and they all contain malicious code (payload) to cause damage to computer systems or networks. Worms are responsible for some of the most devastating attacks on the Internet. In 2001, the Code Red worm had infected over 300,000 servers in just 19 hours.
+
+Social Engineering
+- The manipulation of people into performing actions or divulging confidential information.
+- Social engineers often rely on people’s willingness to be helpful, but they also prey on their weaknesses. 
+- E.g. an attacker will call an authorized employee with an urgent problem that requires immediate network access and appeal to the employee’s vanity or greed or invoke authority by using name-dropping techniques in order to gain this access.
+
+Pretexting
+- This is when an attacker calls an individual and lies to them in an attempt to gain access to privileged data.
+- For example, pretending to need a person’s personal or financial data in order to confirm their identity.
+
+Tailgating
+- This is when an attacker quickly follows an authorized person into a secure, physical location.
+
+Something for something (quid pro quo)
+- This is when an attacker requests personal information from a person in exchange for something, like a free gift.
+
+Denial-of-Service (DoS) 
+- a type of network attack that is relatively simple to carry out, even by an unskilled attackers.
+- results in some sort of interruption of network service to users, devices or applications.
+- Two main types
+    - Overwhelming quantity of traffic: This is when a network, host or application is sent an enormous amount of data at a rate which it cannot handle. This causes a slowdown in transmission or response, or the device or service to crash.
+    - Maliciously formed packets: A packet is a collection of data that flows between a source and a receiver computer or application over a network, such as the Internet. When a maliciously formatted packet is sent, the receiver will be unable to handle it. For example, if an attacker forwards packets containing errors or improperly formatted packets that cannot be identified by an application, this will cause the receiving device to run very slowly or crash.
+
+Distributed DoS (DDoS) similar to a DoS attack but originates from multiple, coordinated sources.
+- An attacker builds a network (botnet) of infected hosts called zombies, which are controlled by handler systems.
+- The zombie computers will constantly scan and infect more hosts, creating more and more zombies.
+- When ready, the hacker will instruct the handler systems to make the botnet of zombies carry out a DDoS attack
+
+Botnet
+- A bot computer is typically infected by visiting an unsafe website or opening an infected email attachment or infected media file. A botnet is a group of bots, connected through the Internet, that can be controlled by a malicious individual or group. It can have tens of thousands, or even hundreds of thousands, of bots that are typically controlled through a command and control server.
+- These bots can be activated to distribute malware, launch DDoS attacks, distribute spam email, or execute brute-force password attacks. Cybercriminals will often rent out botnets to third parties for nefarious purposes.
+- Many organizations. like Cisco, force network activities through botnet traffic filters to identify any botnet locations.
+- The cloud-based Cisco Security Intelligence Operations (SIO) service pushes down updated filters to the firewall that match traffic from new known botnets.
+- Alerts go out to Cisco's internal security team to notify them about the infected devices that are generating malicious
+traffic so that they can prevent, mitigate and remedy these.
+
+On-path attacks
