@@ -120,3 +120,51 @@ Cryptocurrency
 Cryptojacking
 - Cryptojacking is an emerging threat that hides on a user’s computer, mobile phone, tablet, laptop or server, using that machine’s resources to 'mine’ cryptocurrencies without the user's consent or knowledge.
 - Many victims of cryptojacking didn’t even know they’d been hacked until it was too late!
+
+Protecting Your Devices and Network
+
+Turn the Firewall On
+- You should use at least one type of firewall (either a software firewall or a hardware firewall on a router) to protect your device from unauthorized access. The firewall should be turned on and constantly updated to prevent hackers from accessing your personal or organization data.
+
+Install Antivirus and Antispyware
+- You should only ever download software from trusted websites. However, you should always use antivirus software to provide another layer of protection. This software, which often includes antispyware, is designed to scan your computer and incoming email for viruses and delete them. Keeping your software up to date will protect your computer from any new malicious software that emerges.
+
+Managing your Operating System and Browser
+- Hackers are always trying to take advantage of vulnerabilities that may exist in your operating system (such as Microsoft Windows or macOS) or web browser (such as Google Chrome or Apple Safari).
+- Therefore, to protect your computer and your data, you should set the security settings on your computer and browser to medium level or higher. You should also regularly update your computer’s operating system, including your web browser, and download and install the latest software patches and security updates from the vendors.
+
+Set Up Password Protecting
+- All of your computing devices, including PCs, laptops, tablets and smartphones, should be password protected to prevent unauthorized access. Any stored information, especially sensitive or confidential data, should be encrypted. You should only store necessary information on your mobile device, in case it is stolen or lost.
+- Remember, if any one of your devices is compromised, the criminals may be able to access all of your data through your cloud storage service provider, such as iCloud or Google Drive.
+
+Wireless Network Security at Home
+- Wireless networks allow Wi-Fi enabled devices, such as laptops and tablets, to connect to the network by way of a preset network identifier, known as the service set identifier (SSID). Although a wireless router can be configured so that it doesn’t broadcast the SSID, this should not be considered adequate security for a wireless network.
+- Hackers will be aware of the preset SSID and default password. Therefore, these details should be changed to prevent intruders from entering your home wireless network. Furthermore, you should encrypt wireless communication by enabling wireless security and the WPA2 encryption feature on your wireless router. But be aware, even with WPA2 encryption enabled, a wireless network can still be vulnerable.
+
+Public Wifi Risks
+- You should always verify that your device isn’t configured with file and media sharing and that it requires user authentication with encryption.
+- You should also use an encrypted VPN service to prevent others from intercepting your information (known as ‘eavesdropping’) over a public wireless network. This service gives you secure access to the Internet, by encrypting the connection between your device and the VPN server. Even if hackers intercept a data transmission in an encrypted VPN tunnel, they will not be able to decipher it.
+
+Data Maintenance
+
+How to Encrypt Data
+Encrypting File System (EFS) is a Windows feature that can encrypt data. It is directly linked to a specific user account and only the user that encrypts the data will be able to access it after it has been encrypted using EFS.
+1. Select one or more files or folders.
+2. Right click the selected data and go to ‘Properties.’
+3. Find and click ‘Advanced.’
+4. Select the ‘Encrypt contents to secure data’ check box.
+5. Files and folders that have been encrypted with EFS are displayed in green as shown here.
+
+When you move a file to the recycle bin and delete it permanently, the file is only inaccessible from the operating system. Anyone with the right forensic tools could still recover the file due to a magnetic trace left on the hard drive.
+
+How to Delete Data Permanently 
+- To erase data so that it is no longer recoverable, it must be overwritten with ones and zeroes multiple times, using tools specifically designed to do just that. SDelete from Microsoft claims to have the ability to remove sensitive files completely. Shred for Linux and Secure Empty Trash for Mac OS X claim to provide a similar service.
+- The only way to be certain that data or files are not recoverable is to physically destroy the hard drive or storage device. Many criminals have taken advantage of files thought to be impenetrable or irrecoverable!
+- Don’t forget about data that may be stored online in the cloud. These copies will also need to be deleted.
+
+Who Owns Your Data
+
+Terms of Service agreement: a legally binding contract that governs the rules of the relationship between you, the service provider and others who use the service
+- The data use policy outlines how the service provider will collect, use and share your data.
+- The privacy settings allow you to control who sees information about you and who can access your profile or account data.
+- The security policy outlines what the company is doing to secure the data it obtains from you.
