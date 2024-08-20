@@ -168,3 +168,16 @@ Terms of Service agreement: a legally binding contract that governs the rules of
 - The data use policy outlines how the service provider will collect, use and share your data.
 - The privacy settings allow you to control who sees information about you and who can access your profile or account data.
 - The security policy outlines what the company is doing to secure the data it obtains from you.
+
+Safeguarding Your Online Privacy
+- Two Factor Authentication
+- Open Authorization (OAuth)
+    - an open standard protocol that allows you to use your credentials to access third-party applications without exposing your password.
+
+Browsing in private mode
+- When private mode is enabled, cookies - files saved to your device to indicate what websites you've visited - are disabled. Therefore, any temporary internet files are removed and your browsing history is deleted when you close the window or program. This may help to prevent others from gathering information about your online activities and trying to entice you to buy
+something with targeted ads.
+- Even with private browsing enabled and cookies disabled, companies are constantly developing new ways of fingerprinting users in order to track their online behavior. For example, some intermediary devices, like routers, can gather information about a user's web surfing history.
+
+Password manager applications can protect passwords by saving them in a secure encrypted form. They enable random passwords to be generated and managed easily, averting the need for users to have the same password for multiple accounts, which presents a security risk.
+
