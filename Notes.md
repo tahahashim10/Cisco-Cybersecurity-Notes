@@ -181,3 +181,78 @@ something with targeted ads.
 
 Password manager applications can protect passwords by saving them in a secure encrypted form. They enable random passwords to be generated and managed easily, averting the need for users to have the same password for multiple accounts, which presents a security risk.
 
+Cybersecurity Devices and Technologies
+
+Security Appliances
+- Routers: While routers are primarily used to interconnect various network segments together, they usually also provide basic traffic filtering capabilities. This information can help you define which computers from a given network segment can communicate with which network segments.
+- Firewall: Firewalls can look deeper into the network traffic itself and identify malicious behavior that has to be blocked. Firewalls can have sophisticated security policies applied to the traffic that is passing through them.
+- Intrusion prevention systems: IPS systems use a set of traffic signatures that match and block malicious traffic and attacks.
+- Virtual private networks: VPN systems let remote employees use a secure encrypted tunnel from their mobile computer and securely connect back to the organizations netowrk. VPN systems can also securely interconnect branch offices with the central office network.
+- Antimalware or antivirus: theses systems use signatrues or behavioural analysis of applications to identify and block malicious code from being execeuted.
+- Other security devices: including web and email security applicances, decryption devices, client access control servers and security management systems.
+
+Firewalls
+- In computer networking, a firewall is designed to control or filter which communications are allowed in and which are allowed out of a device or network. A firewall can be installed on a single computer with the purpose of protecting that one computer (host-based firewall) or it can be a standalone network device that protects an entire network of computers and all of the host devices on that network (network-based firewall).
+- Network layer firewall: This filters communications based on source and destination IP addresses.
+- Transport layer firewall: Filters communications based on source and destination data ports, as well as connection states.
+- Application layer firewall: Filters communications based on an application, program or service.
+- Content aware layer firewall: Filters communications based on the user, device, role, application type and threat profile.
+- Proxy server: Filters web content requests like URLs, domain names and media types.
+- Reverse proxy server: Placed in front of web servers, reverse proxy servers protect, hide, offload and distribute access to web servers.
+- Network address translation (NAT) firewall: This firewall hides or masquerades the private addresses of network hosts.
+- Host-based firewall: Filters ports and system service calls on a single computer operating system.
+
+Port Scanning
+- In networking, each application running on a device is assigned an identifier called a port number. This port number is used on both ends of the transmission so that the right data is passed to the correct application. Port scanning is a process of probing a computer, server or other network host for open ports. It can be used maliciously as a reconnaissance tool to identify the operating system and services running on a computer or host, or it can be used harmlessly by a network administrator to verify network security policies on the network.
+- The port scan reported an ‘open’ state response. This means that the service running on the network can be accessed done by other network devices. Therefore, if the service contains a vulnerability, it can be exploited done by an attacker.
+
+Intrusion Detection and Prevention Systems
+- Intrusion detection systems (IDSs) and intrusion prevention systems (IPSs) are security measures deployed on a network to detect and prevent malicious activities.
+- IDS
+    - An IDS can either be a dedicated network device or one of several tools in a server, firewall or even a host computer operating system, such as Windows or Linux, that scans data against a database of rules or attack signatures, looking for malicious traffic.
+    - If a match is detected, the IDS will log the detection and create an alert for a network administrator. It will not take action and therefore it will not prevent attacks from happening. The job of the IDS is to detect, log and report.
+    - The scanning performed by the IDS slows down the network (known as latency). To prevent network delay, an IDS is usually placed ofiline, separate from regular network trafic. Data is copied or mirrored by a switch and then forwarded to the IDS for ofiline detection.
+- IPS
+    - An IPS can block or deny traffic based on a positive rule or signature match. One of the most well-known IPS/IDS systems is Snort. The commercial version of Snort is Cisco's Sourcefire. Sourcefire can perform real-time traffic and port analysis, logging, content searching and matching, as well as detect probes, attacks and execute port scans. It also integrates with other third-party tools for reporting, performance and log analysis.
+
+Real-Time Detection
+- Many organizations today are unable to detect attacks until days or even months after they occur.
+- Detecting attacks in real time requires actively scanning for attacks using firewall and IDS/IPS network devices. Next generation client and server malware detection with connections to online global threat centers must also be used. Today, active scanning devices and software must detect network anomalies using context-based analysis and behavior detection.
+- DDoS is one of the biggest attack threats requiring real-time detection and response. For many organizations, regularly occurring DDoS attacks cripple Internet servers and network availability. These attacks are extremely difficult to defend against because the attacks originate from hundreds, even thousands, of zombie hosts, and the attacks appear as legitimate traffic.
+
+Behaviour-Based Security
+- Behavior-based security is a form of threat detection that involves capturing and analyzing the flow of communication between a user on the local network and a local or remote destination. Any changes in normal patterns of behavior are regarded as anomalies, and may indicate an attack.
+- Honeypots
+    - A honeypot is a behavior-based detection tool that lures the attacker in by appealing to their predicted pattern of malicious behavior. Once the attacker is inside the honeypot, the network administrator can capture, log and analyze their behavior so that they can build a better defense.
+- Cisco's Cyber Threat Defense Solution Architecture
+    - This security architecture uses behavior-based detection and indicators to provide greater visibility, context and control. The aim is to know who is carrying out the attack, what type of attack they are performing and where, when and how the attack is taking place. This security architecture uses many security technologies to achieve this goal.
+
+NetFlow
+- NetFlow technology is used to gather information about data flowing through a network, including who and what devices are in the network, and when and how users and devices access the network.
+- NetFlow is an important component in behavior-based detection and analysis. Switches, routers and firewalls equipped with NetFlow can report information about data entering, leaving and traveling through the network. 
+- This information is sent to NetFlow collectors that collect, store and analyze NetFlow data, which can be used to establish baseline behaviors on more than 90 attributes, such as source and destination IP address.
+
+Penetration Testing
+- Penetration testing, commonly known as pen testing, is the act of assessing a computer system, network or organization for security vulnerabilities. A pen test seeks to breach systems, people, processes and code to uncover vulnerabilities which could be exploited. This information is then used to improve the system’s defenses to ensure that it is better able to withstand cyber attacks in the future.
+- 1. Planning: The pen tester gathers as much information as possible about a target system or network, its potential vulnerabilities and exploits to use against it. This involves conducting passive or active reconnaissance (footprinting) and vulnerability research.
+- 2. Scanning: The pen tester carries out active reconnaissance to probe a target system or network and identify potential weaknesses which, if exploited, could give an attacker access. Active reconnaissance may include:
+        - port scanning to identify potential access points into a target system
+        - vulnerability scanning to identify potential exploitable vulnerabilities of a particular target
+        - establishing an active connection to a target (enumeration) to identify the user account, system account and admin account.
+- 3. Gaining access: The pen tester will attempt to gain access to a target system and sniff network traffic, using various methods to exploit the system including:
+    - launching an exploit with a payload onto the system
+    - breaching physical barriers to assets
+    - social engineering
+    - exploiting website vulnerabilities
+    - exploiting software and hardware vulnerabilities or misconfigurations
+    - breaching access controls security
+    - cracking weak encrypted Wi-Fi.
+- 4. Maintaining access: The pen tester will maintain access to the target to find out what data and systems are vulnerable to exploitation. It is important that they remain undetected, typically using backdoors, Trojan horses, rootkits and other covert channels to hide their presence. When this infrastructure is in place, the pen tester will then proceed to gather the data that they consider valuable.
+- 5. Analysis and reporting: The pen tester will provide feedback via a report that recommends updates to products, policies and training to improve an organization’s security.
+
+Risk Management
+- Risk management is the formal process of continuously identifying and assessing risk in an effort to reduce the impact of threats and vulnerabilities. You cannot eliminate risk completely but you can determine acceptable levels by weighing up the impact of a threat with the cost of implementing controls to mitigate it. The cost of a control should never be more than the value of the asset you are protecting.
+- Frame the risk: Identify the threats that increase risk. Threats may include processes, products, attacks, potential failure or disruption of services, negative perception of an organization's reputation, potential legal liability or loss of intellectual property.
+- Assess teh risk: Determine the severity that each threat poses. For example, some threats may have the potential to bring an entire organization to a standstill, while other threats may be only minor inconveniences. Risk can be prioritized by assessing financial impact (a quantitative analysis) or scaled impact on an organization's operation (a qualitative analysis).
+- Respond to the risk: Develop an action plan to reduce overall organizationrisk exposure, detailing where risk can be eliminated, mitigated, transferred or accepted.
+- Monitor the risk: Continuously review any risk reduced through elimination, mitigation or transfer actions. Remember, not all risks can be eliminated, so you will need to closely monitor any threats that have been accepted.
