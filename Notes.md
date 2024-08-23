@@ -256,3 +256,16 @@ Risk Management
 - Assess teh risk: Determine the severity that each threat poses. For example, some threats may have the potential to bring an entire organization to a standstill, while other threats may be only minor inconveniences. Risk can be prioritized by assessing financial impact (a quantitative analysis) or scaled impact on an organization's operation (a qualitative analysis).
 - Respond to the risk: Develop an action plan to reduce overall organizationrisk exposure, detailing where risk can be eliminated, mitigated, transferred or accepted.
 - Monitor the risk: Continuously review any risk reduced through elimination, mitigation or transfer actions. Remember, not all risks can be eliminated, so you will need to closely monitor any threats that have been accepted.
+
+Cisco's CSIRT
+- Many large organizations have a Computer Security Incident Response Team (CSIRT) to receive, review and respond to computer security incident reports. Cisco CSIRT goes a step further and provides proactive threat assessment, mitigation planning, incident trend analysis and security architecture review in an effort to prevent security incidents from happening.
+- Cisco’s CSIRT takes a proactive approach, collaborating with the Forum of Incident Response and Security Teams (FIRST), the National Safety Information Exchange (NSIE), the Defense Security Information Exchange (DSIE) and the DNS Operations Analysis and Research Center (DNS-OARC) to ensure we stay up-to-date with new developments.
+- There are several national and public CSIRT organizations, like the CERT Division of the Software Engineering Institute at Carnegie Mellon University, that are available to help organizations and national CSIRTs to develop, operate and improve their incident management capabilities.
+
+Tools for incident detection and prevention
+- A Security Information and Event Management (SIEM) system collects and analyzes security alerts, logs and other real-time and historical data from security devices on the network to facilitate early detection of cyber attacks.
+- A Data Loss Prevention (DLP) system is designed to stop sensitive data from being stolen from or escaping a network. It monitors and protects data in three different
+states: data in use (data being accessed by a user), data in motion (data traveling through the network) and data at rest (data stored in a computer network or device).
+
+Cisco's ISE and TrustSec
+- Cisco Identity Services Engine (ISE) and TrustSec enforce user access to network resources by creating role-based access control policies.
